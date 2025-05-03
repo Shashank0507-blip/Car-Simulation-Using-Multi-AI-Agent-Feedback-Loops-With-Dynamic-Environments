@@ -4,7 +4,7 @@
 * Press windows + R.
 * This will open a window , type "cmd" and press enter.
 * This will open the terminal / command window / bash.
-### **Then install the following one by one:**  
+### **Then install the modules by using the below commands one by one:**  
 * pip install openai
 * pip install speechrecognition
 * pip install pyttsx3
