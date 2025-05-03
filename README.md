@@ -17,9 +17,18 @@ To demonstrate how autonomous vehicles can make intelligent decisions in dynamic
 - **Perception Agent**: Simulates object recognition and traffic data.
 
 ###  **Environment:**
-- 2D grid environment (e.g., 12x12 grid)
-- Configurable obstacles and blocked cells
-- Flexible grid initialization and route customization
+- 2D grid environment (e.g., 12x12 grid).
+- Configurable obstacles and blocked cells.
+- Flexible grid initialization and route customization.
+  
+### **Dynamic Syncing:**
+* The grid updates in a loop (simulating traffic changes).
+* After each update, the agents re-coordinate:
+* The Perceptor observes and sends inputs.
+* The Planner recalculates.
+* The Decision Agent chooses the action.
+* The Executor moves the car accordingly.
+* This cycle mimics real-time adaptive autonomy.
 
 ### **Technologies:**
 - Python (Jupyter Notebook)
