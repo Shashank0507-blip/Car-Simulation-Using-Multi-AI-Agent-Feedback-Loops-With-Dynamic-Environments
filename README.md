@@ -1,6 +1,6 @@
 #  AI Multi-Agent Self-Driving Car Simulation
 
-This project simulates a 2D grid-based self-driving car environment powered by a modular **multi-agent AI system**. Each agent is responsible for a distinct task—planning, executing, decision-making, or perception—emulating real-world autonomous driving systems. The agents communicate using structured messages, and decisions are generated using a powerful LLM (LLaMA 3 via Groq API).
+#### This project simulates a 2D grid-based self-driving car environment powered by a modular **multi-agent AI system**. Each agent is responsible for a distinct task—planning, executing, decision-making, or perception—emulating real-world autonomous driving systems. The agents communicate using structured messages, and decisions are generated using a powerful LLM (LLaMA 3 via Groq API).
 ---
 ##  Objective
 
